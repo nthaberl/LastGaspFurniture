@@ -1,0 +1,37 @@
+body {
+    padding-top: 50px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #283747;
+    font-size: 0.875em;
+}
+
+div {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    max-width: 250px;
+}
+
+#invoice {
+    text-align: left;
+    border-radius: 10px;
+    border: #6b5e67 solid 3px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: #6f76e8;
+}
+
+button:hover {
+    opacity: .7;
+}

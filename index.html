@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Natascha Haberl">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Last Gasp Furniture Store</title>
+</head>
+
+<body>
+    <div id="make-purchase">
+        <button onclick="makePurchase()">Make A Purchase</button>
+    </div>
+    <div id="invoice">
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td id="items"></td>
+                <td id="quantity"></td>
+                <td id="unit-price"></td>
+                <td id="total-price"></td>
+            </tr>
+        </table>
+        <hr>
+        <p id="transaction-info"></p>
+        <button onClick="window.location.reload()">Shop Again</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
